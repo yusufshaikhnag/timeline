@@ -1,0 +1,49 @@
+{
+  "name": "timeline",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "lint": "eslint .",
+    "start": "react-native start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@react-native-community/masked-view": "^0.1.11",
+    "@react-native-community/viewpager": "^5.0.11",
+    "@react-navigation/bottom-tabs": "^6.5.7",
+    "@react-navigation/material-top-tabs": "^6.6.2",
+    "@react-navigation/native": "^6.1.6",
+    "react": "^18.2.0",
+    "react-native": "^0.71.6",
+    "react-native-gesture-handler": "^2.9.0",
+    "react-native-pager-view": "^6.2.0",
+    "react-native-reanimated": "^3.0.2",
+    "react-native-safe-area-context": "^4.5.0",
+    "react-native-screens": "^3.20.0",
+    "react-native-tab-view": "^3.5.1",
+    "react-native-timeline-flatlist": "^0.8.0",
+    "react-native-virtualized-view": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "@babel/runtime": "^7.21.0",
+    "@react-native-community/eslint-config": "^3.2.0",
+    "@tsconfig/react-native": "^2.0.3",
+    "@types/jest": "^29.5.0",
+    "@types/react": "^18.0.32",
+    "@types/react-test-renderer": "^18.0.0",
+    "babel-jest": "^29.5.0",
+    "eslint": "^8.37.0",
+    "jest": "^29.5.0",
+    "metro-react-native-babel-preset": "^0.76.0",
+    "prettier": "^2.8.7",
+    "react-test-renderer": "^18.2.0",
+    "typescript": "^5.0.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
